@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+		body {font-family: "Times New Roman", Georgia, Serif;}
+		h1, h2, h3, h4, h5, h6 {
+			font-family: "Playfair Display";
+			letter-spacing: 5px;
+		}
+		</style>
+		</head>
+		<body class="w3-black">
+
+		<!-- Navbar (sit on top) -->
+		<div class="w3-top">
+			<div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
+				<a href="#home" class="w3-bar-item w3-button">Bill division</a>
+				<!-- Right-sided navbar links. Hide them on small screens -->
+				
+				<div class="w3-right w3-hide-small">
+					<button class="GFG" 
+							    onclick="window.location.href = 'https://avenue.cllmcmaster.ca/d2l/login?sessionExpired=0&target=%2fd2l%2fhome%2f6605';">
+							        Account
+    			</button>
+					<a href="#about" class="w3-bar-item w3-button">Your Stats</a>
+					<a href="#menu" class="w3-bar-item w3-button">Menu</a>
+					<a href="#contact" class="w3-bar-item w3-button">Account</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header -->
+		<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+			<img class="w3-image" src="https://resizer.otstatic.com/v2/photos/wide-huge/2/42501452.jpg" alt="Electric Diner" width="1600" height="800">
+			<div class="w3-col m6 w3-padding-large">
+					<h1 class="w3-center">Welcome Denise</h1><br>
+			</div>
+		</header>
+
+		<!-- Page content -->
+		<div class="w3-content" style="max-width:1100px">
+
+			<!-- About Section -->
+			<div class="w3-row w3-padding-64" id="about">
+				<div class="w3-col m6 w3-padding-large w3-hide-small"><br>
+				 <img src="https://i.ibb.co/HTX7XMQ/Screen-Shot-2022-11-20-at-11-07-32-PM.png" class="w3-round w3-image w3-opacity-min" alt="t swift" width="600" height="750">
+				</div>
+
+				<div class="w3-col m6 w3-padding-large">
+					<h1 class="w3-center">Currently...</h1>
+					<h5 class="w3-center">You are at Blue Sky</h5><br>
+					<h4>Your Order:</h4>
+									<p class="w3-text-grey">Chef's Oysters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$48.99</p>
+									<p class="w3-text-grey">Truffle Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$19.99</p>
+									<p class="w3-text-grey">Gin and Tonic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$7.99</p>
+									<p class="w3-text-grey">Spicy Margarita&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$12.99</p>
+									<p class="w3-text-grey">Creme Brulee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$15.99</p><br>
+
+
+									<h4>Ada's Order</h4>
+									<p class="w3-text-grey">Chicken Alfredo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$16.99</p>
+									<p class="w3-text-grey">Canada Dry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$3.50</p><br>
+
+									<h4>Jerica's Order</h4>
+									<p class="w3-text-grey">Deciding...</p><br>
+
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Menu Section -->
+					<div class="w3-row w3-padding-64" id="menu">
+						<div class="w3-col l6 w3-padding-large">
+					<h1 class="w3-center">Our Menu</h1><br>
+					<h4>Garlic Bread</h4>
+					<p class="w3-text-grey">Freshly baked bread spread with local butter and garlic 5.50</p><br>
+
+					<h4>Tandoori Chicken</h4>
+					<p class="w3-text-grey">Juicy chicken seasoned with spices from all over the world and marinated overnight 17.00</p><br>
+
+					<h4>Biryani</h4>
+					<p class="w3-text-grey">Colourful rice and chicken prepared in an oven 22.50</p><br>
+
+					<h4>Blueberry Pancakes</h4>
+					<p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
+				</div> 
+
+				<div class="w3-col l6 w3-padding-large"><br><br><br><br><br><br>
+					<img src="https://static.toiimg.com/thumb/92620481.cms?width=680&height=512&imgsize=170982" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+				</div>
+			</div>
+
+			<hr>
+
+
+			 <!-- Contact Section -->
+				<div class="w3-container w3-padding-64" id="contact">
+					<h1>Account</h1><br>
+					<p>How would you like to pay today?</p>
+									<p><button class="w3-button w3-light-grey w3-section" type="submit">Credit</button></p>
+									<p><button class="w3-button w3-light-grey w3-section" type="submit">Debit</button></p><br>
+				<form action="/action_page.php" target="_blank">
+							<p><input class="w3-input w3-padding-16" type="text" placeholder="Denise2000" required name="Name"></p>
+							<p class="w3-text-grey">Edit your display name</p>
+							<p><input class="w3-input w3-padding-16" type="text" placeholder="2001-03-29" required name="Birthday"></p>
+							<p class="w3-text-grey">Edit date of birth</p>
+							<p> <a href="https://www.mcmaster.ca/" title="Notificiations" target="_blank" class="w3-hover-text-white">Split Notifications</a></p>
+							<p> <a href="https://www.mcmaster.ca/" title="Security Preferences" target="_blank" class="w3-hover-text-white">Security Preferences</a></p>
+							<p> <a href="https://www.mcmaster.ca/" title="Payments" target="_blank" class="w3-hover-text-white">View Previous Payments</a></p>
+							<p> <a href="https://www.mcmaster.ca/" title="Help" target="_blank" class="w3-hover-text-white">Help</a></p>
+						</form>
+
+		</div>
+
+
+		<!-- Footer -->
+		<footer class="w3-center w3-light-grey w3-padding-32">
+			<p>Powered by <a href="https://www.mcmaster.ca/" title="HAJA Enterprises" target="_blank" class="w3-hover-text-purple">HAJA Enterprises</a></p>
+		</footer>
+
+		</body>
+		</html>
